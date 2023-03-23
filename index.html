@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Clicker</title>
+</head>
+<body>
+   <p>Score <tag id="score">0</tag></p> 
+<p><tag id="addOn">+1</tag></p>
+<div class="background">
+<img onclick="addPoint()" src="cat.png" id="myImage">
+</div>
+
+<p>Cost <tag id="cost">20</tag> points to update your click(adds 5 clicks)</p>
+<button onclick="addBasic()" id="btn">Update click</button>
+
+<p>Cost <tag id="costAdv">500</tag> points to update your click(adds 100 clicks)</p>
+<button onclick="addAdv()" id="btn">Update click</button>
+
+</body>
+</html>
